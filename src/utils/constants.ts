@@ -27,7 +27,7 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
     case 250: // fantom
         return '0xA83A93635E09E4927C0be39800bB9DE371402B66'
     case 43114: // avalanche
-        return '0x19Ac1fb671ccd2D1A4A6E5a024e6248226e0359B'
+        return '0xFde621818f5c2828c1BaD688278A4271DCdA4f22'
     default:
       throw new Error(`Universal Router not deployed on chain ${chainId}`)
   }
