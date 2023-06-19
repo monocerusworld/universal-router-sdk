@@ -25,7 +25,7 @@ export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
     case 56: // binance smart chain
       return '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD'
     case 250: // fantom
-        return '0x6054717A87b56839d1389A1aAFd74dF1D9D7B382'    
+        return '0xA83A93635E09E4927C0be39800bB9DE371402B66'
     case 43114: // avalanche
         return '0x19Ac1fb671ccd2D1A4A6E5a024e6248226e0359B'
     default:
